@@ -1,5 +1,20 @@
 # TCC_Stock_Predictions
 
+## Ultimas referencias do Guilherme:
+	Objetivo: Normalizar os resultados
+
+	Tentar redes neurais mais curtas
+
+	Ele deu a ideia de normalizar a variação da base de dados
+		Meio que ver o max e min como 1 e -1
+		e fazer o desvio padrao fixo
+	Referencia: https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/
+
+	Livro do inicio ao fim do ML
+		https://www.amazon.com/Neural-Networks-Learning-Machines-3rd/dp/0131471392
+
+
+
 <!-- Repo da brenca
 https://redu.unicamp.br/dataset.xhtml?persistentId=doi:10.25824/redu/REJCTD -->
 
