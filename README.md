@@ -1,3 +1,6 @@
+Conferir os arquivos com 0kb
+C:\Users\arthu\.conda\envs\pystock\Lib\site-packages\matplotlib\mpl-data\fonts\ttf
+
 # TCC_Stock_Predictions
 
 ## Ultimas referencias do Guilherme:

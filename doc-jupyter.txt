@@ -4,5 +4,8 @@ https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18a
 Run docker:
 docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 
-Funcionou ontem: 
+Run docker in local folder: (nao Funcionou)
+docker run -it --rm -p 8888:8888 -v C:/Users/arthu/Documents/GitHub/docker-spark/examples:/home/jobyan/workspace jupyter/pyspark-notebook
+
+Funcionou ontem:
 http://127.0.0.1:8888/notebooks/makeCsv.ipynb
