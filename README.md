@@ -1,5 +1,6 @@
-Conferir os arquivos com 0kb
-C:\Users\arthu\.conda\envs\pystock\Lib\site-packages\matplotlib\mpl-data\fonts\ttf
+
+Val_MSE minimo: 0.07
+Modelo 5
 
 # TCC_Stock_Predictions
 
