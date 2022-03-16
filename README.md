@@ -1,3 +1,12 @@
+# A fazer:
+## Ler os artigos do Kevin:
+https://dataml.com.br/series-temporais-como-aprendizado-supervisionado/
+https://dataml.com.br/introducao-a-previsao-de-series-temporais/
+Para avalição final do modelo:
+https://dataml.com.br/otimizando-uma-carteira-de-criptomoedas-usando-python/
+
+
+
 
 Val_MSE minimo: 0.07
 Modelo 5
