@@ -1,9 +1,38 @@
+
+# Revisão Bibliografica:
+	fechar as key words
+
+	pq o google schoolar
+
+	filtrado por esse periodo
+
+		obtive X artigos
+			Qual criterio pra escolher os artigos
+				titulo, resumo,
+
+	Formalizar tudo num doc
+
+
+	Oq achei importante do artigo pra falar, fazer organizado pra nao precisar ir reler os artigos
+
+
+	Buscar por artigos no google academico
+		fechar query
+		fechar questao da data
+
+		apresentar a metodologia da revisao sistematica
+
+# plottar box plot com os resultados dos modelos de cada IA
+
+# (desnecessario) Avaliar se o modelo se prova ao longo do tempo em cenarios diferentes
+
 # A fazer:
+
 ## Ler os artigos do Kevin:
-https://dataml.com.br/series-temporais-como-aprendizado-supervisionado/
-https://dataml.com.br/introducao-a-previsao-de-series-temporais/
-Para avalição final do modelo:
-https://dataml.com.br/otimizando-uma-carteira-de-criptomoedas-usando-python/
+	https://dataml.com.br/series-temporais-como-aprendizado-supervisionado/
+	https://dataml.com.br/introducao-a-previsao-de-series-temporais/
+	Para avalição final do modelo:
+	https://dataml.com.br/otimizando-uma-carteira-de-criptomoedas-usando-python/
 
 
 
@@ -35,19 +64,19 @@ https://redu.unicamp.br/dataset.xhtml?persistentId=doi:10.25824/redu/REJCTD -->
 	https://pandas-datareader.readthedocs.io/en/latest/readers/index.html
 
 # Pre-Processing
-Pandas
-pandas-datareader
-sklearn - Prepara train and test
-quantecon - Biblioteca de economia
+	Pandas
+	pandas-datareader
+	sklearn - Prepara train and test
+	quantecon - Biblioteca de economia
 
 # Indicators:
-ta
-	https://technical-analysis-library-in-python.readthedocs.io/en/latest/
+	ta
+		https://technical-analysis-library-in-python.readthedocs.io/en/latest/
 
 # Grafico:
-matplotlib
-seaborn
-plotly
+	matplotlib
+	seaborn
+	plotly
 
 # Models
 Keras
