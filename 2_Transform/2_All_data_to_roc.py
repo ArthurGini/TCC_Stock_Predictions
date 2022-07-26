@@ -12,7 +12,7 @@ df['open_jbs'] = df.open_jbs.rolling(window=10).mean()
 df['open_petr4'] = df.open_petr4.rolling(window=10).mean()
 df['open_vale'] = df.open_vale.rolling(window=10).mean()
 
-# Por causa da média os dados começam no index 9
+# Por causa da janela média dos dados começam no index 9
 df = df.dropna()
 
 # Transformando na variação

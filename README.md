@@ -20,7 +20,17 @@
 		fechar query
 		fechar questao da data
 
-		apresentar a metodologia da revisao sistematica
+	apresentar a metodologia da revisao exploratoria
+
+
+# reuniao
+	Os artigos de periodicos sao mais completos
+
+	200 na busca
+		filtrar por nome e resumo
+
+		Se restringir a machine learning diminui ?
+			Pensar no filtro visual
 
 # plottar box plot com os resultados dos modelos de cada IA
 
