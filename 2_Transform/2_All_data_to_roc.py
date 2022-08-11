@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('../Data/2_Stage/bruto_ibova_oil_usd_abev_jbs_petra_vale.csv')
 
 
-df['open_ibova'] = df.open_ibova.rolling(window=10).mean()
-df['open_oil'] = df.open_oil.rolling(window=10).mean()
-df['open_usd'] = df.open_usd.rolling(window=10).mean()
-df['open_abev'] = df.open_abev.rolling(window=10).mean()
-df['open_jbs'] = df.open_jbs.rolling(window=10).mean()
-df['open_petr4'] = df.open_petr4.rolling(window=10).mean()
-df['open_vale'] = df.open_vale.rolling(window=10).mean()
+df['open_ibova'] = df.open_ibova.rolling(window=10)
+df['open_oil'] = df.open_oil.rolling(window=10)
+df['open_usd'] = df.open_usd.rolling(window=10)
+df['open_abev'] = df.open_abev.rolling(window=10)
+df['open_jbs'] = df.open_jbs.rolling(window=10)
+df['open_petr4'] = df.open_petr4.rolling(window=10)
+df['open_vale'] = df.open_vale.rolling(window=10)
 
 # Por causa da janela média dos dados começam no index 9
 df = df.dropna()
