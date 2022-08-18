@@ -112,3 +112,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/Model/my_dir/intro_to_kt
