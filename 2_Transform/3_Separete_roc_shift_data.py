@@ -15,11 +15,11 @@ def shift_data(roc_values):
 
 
 # , index_col='date', header=['date','open_ibova','open_oil','open_usd']
-df = pd.read_csv("../Data/2_Stage/ROC_all_data.csv")
+df = pd.read_csv("Data/2_Stage/ROC_all_data.csv")
 
-df_treino = df.iloc[:1438]
+df_treino = df.iloc[:1918]
 df_validacao = df.iloc[1438:1916]
-df_teste = df.iloc[1916:]
+df_teste = df.iloc[1918:]
 
 df = df_treino
 

@@ -1,0 +1,5 @@
+,best_epoch,val_mae,val_mse,n_filter_1,n_filter_2,kernel_size_1,kernel_size_2,learning_rate,activation,bst_model_path
+0,286,0.20963555574417114,0.0717165470123291,4,,1,,0.01,elu,Models/CNN/model_22_10_06_23h03m32.h5
+1,204,0.2086552232503891,0.0714668482542038,4,,1,,0.01,elu,Models/CNN/model_22_10_06_23h14m46.h5
+2,62,0.209478497505188,0.07066696882247925,4,,1,,0.01,elu,Models/CNN/model_22_10_06_23h19m41.h5
+3,459,0.21546505391597748,0.07646007090806961,4,,1,,0.01,elu,Models/CNN/model_22_10_06_23h24m21.h5
