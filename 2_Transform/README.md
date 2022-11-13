@@ -4,5 +4,5 @@ https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18a
 Run docker:
 docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 
-Funcionou ontem: 
+Link:
 http://127.0.0.1:8888/notebooks/makeCsv.ipynb
