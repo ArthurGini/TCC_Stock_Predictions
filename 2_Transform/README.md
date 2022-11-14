@@ -1,8 +1,4 @@
-Site base:
-https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
+# Todos os arquivos do jupyterhub são de desenvolvimento
 
-Run docker:
-docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
+## Os códigos finais utilizados estão no .py
 
-Link:
-http://127.0.0.1:8888/notebooks/makeCsv.ipynb
