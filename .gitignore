@@ -114,3 +114,4 @@ dmypy.json
 .pyre/
 /Model/my_dir/intro_to_kt
 /Model/logs
+/Experiments/logs

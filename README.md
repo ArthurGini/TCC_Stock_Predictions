@@ -1,104 +1,31 @@
-
-# Revisão Bibliografica:
-	fechar as key words
-
-	pq o google schoolar
-
-	filtrado por esse periodo
-
-		obtive X artigos
-			Qual criterio pra escolher os artigos
-				titulo, resumo,
-
-	Formalizar tudo num doc
-
-
-	Oq achei importante do artigo pra falar, fazer organizado pra nao precisar ir reler os artigos
-
-
-	Buscar por artigos no google academico
-		fechar query
-		fechar questao da data
-
-	apresentar a metodologia da revisao exploratoria
-
-
-# reuniao
-	Os artigos de periodicos sao mais completos
-
-	200 na busca
-		filtrar por nome e resumo
-
-		Se restringir a machine learning diminui ?
-			Pensar no filtro visual
-
-# plottar box plot com os resultados dos modelos de cada IA
-
-# (desnecessario) Avaliar se o modelo se prova ao longo do tempo em cenarios diferentes
-
-# A fazer:
-
-## Ler os artigos do Kevin:
-	https://dataml.com.br/series-temporais-como-aprendizado-supervisionado/
-	https://dataml.com.br/introducao-a-previsao-de-series-temporais/
-	Para avalição final do modelo:
-	https://dataml.com.br/otimizando-uma-carteira-de-criptomoedas-usando-python/
+# Avaliação de Métodos Preditivos aplicados ao IBOVESPA
+   ![Keras](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white)
+   ![Tensor Flow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+   ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
 
 
 
+## Sobre:
+- Faculdade de Tecnologia - UNICAMP
+- Trabalho de Conclusão de Curso
+- Bacharelado em Sistemas de Informação I
+- Orientado por Prof. Dr. Guilherme Palermos Coelho.
+- Coorientador por Prof. Dr. Ana Estela Antunes da Silva.
 
-Val_MSE minimo: 0.07
-Modelo 5
+## Documentação:
+- **Relatorio_Arthur_B_Gini.pdf**
 
-# TCC_Stock_Predictions
+## Instalação:
+<details>
+   <summary>Click to show</summary>
 
-## Ultimas referencias do Guilherme:
-	Objetivo: Normalizar os resultados
+  1. Installation
+   - Download/clone this repository. Then open terminal (make sure you are in the project's directory).
+   - Create a virtual environment using the command ````py -m venv yourVenvName```` and activate it using ````yourVenvName\Scripts\activate.bat````.
+   - Then run the following command ````pip install -r requirements.txt````. With this, all the dependencies will be installed in your virtual environment.
 
-	Tentar redes neurais mais curtas
+   > **Note:** *If any dependency is missing or an error shows up, install it using ````pip install moduleName````*.
 
-	Ele deu a ideia de normalizar a variação da base de dados
-		Meio que ver o max e min como 1 e -1
-		e fazer o desvio padrao fixo
-	Referencia: https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/
+</details>
+<p>
 
-	Livro do inicio ao fim do ML
-		https://www.amazon.com/Neural-Networks-Learning-Machines-3rd/dp/0131471392
-
-
-
-<!-- Repo da brenca
-https://redu.unicamp.br/dataset.xhtml?persistentId=doi:10.25824/redu/REJCTD -->
-
-# Data:
-	https://pandas-datareader.readthedocs.io/en/latest/readers/index.html
-
-# Pre-Processing
-	Pandas
-	pandas-datareader
-	sklearn - Prepara train and test
-	quantecon - Biblioteca de economia
-
-# Indicators:
-	ta
-		https://technical-analysis-library-in-python.readthedocs.io/en/latest/
-
-# Grafico:
-	matplotlib
-	seaborn
-	plotly
-
-# Models
-Keras
-	tensorflow (dentro do keras)
-
-	from tensorflow import keras
-	from tensorflow.keras.models
-
-Tretas
-	Kernel_initializar
-	activation
-	loss
-	metrics
-
-	plot error
