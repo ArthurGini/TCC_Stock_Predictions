@@ -1,0 +1,4 @@
+,activation,best_epoch,best_model_path,hp_unit_1,hp_unit_2,hp_unit_3,hp_unit_4,kernel_size_1,kernel_size_2,learning_rate,n_filter_1,n_filter_2,val_mae,val_mse
+0,tanh,79,Models/MLP/model_MLP_22_12_06_23h36m02.h5,,64,47,61,,,0.001,,,1.1686482429504395,2.4358115196228027
+1,selu,125,Models/MLP/model_MLP_22_12_06_23h37m16.h5,,36,9,6,,,0.01,,,1.1602243185043335,2.41467022895813
+2,elu,124,Models/MLP/model_MLP_22_12_06_23h38m18.h5,,29,63,34,,,0.01,,,1.167541265487671,2.436556577682495

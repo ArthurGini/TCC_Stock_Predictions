@@ -1,0 +1,4 @@
+,activation,best_epoch,best_model_path,hp_unit_1,hp_unit_2,hp_unit_3,hp_unit_4,kernel_size_1,kernel_size_2,learning_rate,n_filter_1,n_filter_2,val_mae,val_mse
+0,softsign,5,Models/CNN/model_CNN_22_12_05_22h00m08.h5,,,,,5,,0.01,11,,1.1640795469284058,2.4560580253601074
+1,softplus,101,Models/CNN/model_CNN_22_12_05_22h01m49.h5,,,,,11,,0.001,14,,1.1624350547790527,2.366734266281128
+2,softplus,8,Models/CNN/model_CNN_22_12_05_22h03m31.h5,,,,,9,,0.01,7,,1.1743991374969482,2.45146107673645

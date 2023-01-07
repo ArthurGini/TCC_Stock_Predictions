@@ -14,22 +14,27 @@ from pandas_datareader import data as wb
 
 """
 
-extract_data = 'ABEV3.SA'
-init_extract_date = '2010-6-30'
-end_extract_date = '2021-11-10'
-PATH = f'C:/Users/arthu/Documents/GitHub/TCC_Stock_Predictions/Data/Raw/Open_{extract_data}.csv'
+extract_data = "^BVSP"
+init_extract_date = "2010-6-30"
+end_extract_date = "2021-11-10"
+PATH = f"C:/Users/arthu/Documents/GitHub/TCC_Stock_Predictions/Data/1_Raw/Open_{extract_data}_2.csv"
 
 df = pd.DataFrame()
 
 try:
     # data = wb.DataReader(lista_acoes[0], data_source ='yahoo', start = init_extract_date, end=end_extract_date)['Adj Close Open']
-    data = wb.DataReader(name=extract_data, data_source='yahoo',
-                         start=init_extract_date, end=end_extract_date)
+    data = wb.DataReader(
+        name=extract_data,
+        data_source="yahoo",
+        start=init_extract_date,
+        end=end_extract_date,
+    )
+    print(data)
 
 except RemoteDataError:
-    print('yahoo fora do ar')
+    print("yahoo fora do ar")
 
-df_stock = data['Open']
+df_stock = data["Open"]
 
 df_stock.to_csv(PATH)
-print(f'Arquivo salvo com sucesso em: {PATH}')
+print(f"Arquivo salvo com sucesso em: {PATH}")

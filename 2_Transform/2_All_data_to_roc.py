@@ -2,7 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # , index_col='date', header=['date','open_ibova','open_oil','open_usd']
-df = pd.read_csv("../Data/2_Stage/bruto_ibova_oil_usd_abev_jbs_petra_vale.csv")
+# df = pd.read_csv("../Data/2_Stage/2_bruto_ibova_oil_usd_abev_jbs_petra_vale.csv")
+df = pd.read_csv(
+    "C:/Users/arthu/Documents/GitHub/TCC_Stock_Predictions/Data/2_Stage/2_bruto_ibova_oil_usd_abev_jbs_petra_vale.csv"
+)
 
 # Calculo da média movel de 10 dias  - Parte não utilizada na versão final
 # df['open_ibova'] = df.open_ibova.rolling(window=10)
@@ -28,12 +31,12 @@ df["roc_open_oil"] = ta.roc(
 df["roc_open_usd"] = ta.roc(
     df["open_usd"], length=1, scalar=None, talib=None, offset=None
 )
-df["roc_open_abev"] = ta.roc(
-    df["open_abev"], length=1, scalar=None, talib=None, offset=None
-)
-df["roc_open_jbs"] = ta.roc(
-    df["open_jbs"], length=1, scalar=None, talib=None, offset=None
-)
+# df["roc_open_abev"] = ta.roc(
+#     df["open_abev"], length=1, scalar=None, talib=None, offset=None
+# )
+# df["roc_open_jbs"] = ta.roc(
+#     df["open_jbs"], length=1, scalar=None, talib=None, offset=None
+# )
 df["roc_open_petr4"] = ta.roc(
     df["open_petr4"], length=1, scalar=None, talib=None, offset=None
 )
@@ -49,13 +52,13 @@ df = df[
         "roc_open_ibova",
         "roc_open_oil",
         "roc_open_usd",
-        "roc_open_abev",
-        "roc_open_jbs",
+        # "roc_open_abev",
+        # "roc_open_jbs",
         "roc_open_petr4",
         "roc_open_vale",
     ]
 ]
 df = df.dropna()
 
-PATH = f"C:/Users/arthu/Documents/GitHub/TCC_Stock_Predictions/Data/2_Stage/ROC_all_data.csv"
+PATH = f"C:/Users/arthu/Documents/GitHub/TCC_Stock_Predictions/Data/2_Stage/2_ROC_all_data.csv"
 df.to_csv(PATH)
